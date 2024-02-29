@@ -1,0 +1,6 @@
+Models,top-1 (Python),top-5 (Python),top-1 (C),top-5 (C)
+CodeGen-6B,108,544,38,203
+ChatGPT,118,567,44,256
+Code Llama-13B,115,588,45,252
+StarCoder-7B,122,622,59,283
+WizardCoder-15B,152,747,51,260
