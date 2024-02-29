@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CodeLMSec Benchmark</title>
+    <meta name="author" content="Hajipour et al.">
+    <meta content="Security benchmark of LLM code generation models">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/dataTables.bootstrap4.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <main class="row">
+            <div class="col">
+                <h1>CodeLMSec Benchmark</h1>
+
+                <p> These tables show the up-to-date results for the CodeLMSec Benchmark introduced in the paper [citation here]. </p>
+
+                <div id="benchmark-container"></div>
+                <div id="details-python-container"></div>
+                <div id="details-c-container"></div>
+            </div>
+        </main>
+        <footer class="row">
+            <div class="col">
+                <hr>
+                <p class="text-right"><a href="https://github.com/derekeder/csv-to-html-table">Created using CSV to HTML Table</a> by
+                    <a href="http://derekeder.com">Derek
+                        Eder</a></p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.csv.min.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="js/dataTables.bootstrap4.min.js"></script>
+    <script src="js/csv_to_html_table.js"></script>
+
+    <script>
+        function format_link(link) {
+            if (link)
+                return "<a href='" + link + "' target='_blank'>" + link + "</a>";
+            else return "";
+        }
+
+        CsvToHtmlTable.init({
+            csv_path: "data/benchmark.csv",
+            element: "benchmark-container",
+            allow_download: true,
+            csv_options: {
+                separator: ",",
+                delimiter: '"'
+            },
+            datatables_options: {
+                paging: false,
+            },
+            // custom_formatting: [
+            //     [4, format_link]
+            // ]
+        });
+
+        CsvToHtmlTable.init({
+            csv_path: "data/details_python.csv",
+            element: "details-python-container",
+            allow_download: true,
+            csv_options: {
+                separator: ",",
+                delimiter: '"'
+            },
+            datatables_options: {
+                paging: false
+            },
+            // custom_formatting: [
+            //     [4, format_link]
+            // ]
+        });
+
+        CsvToHtmlTable.init({
+            csv_path: "data/details_c.csv",
+            element: "details-c-container",
+            allow_download: true,
+            csv_options: {
+                separator: ",",
+                delimiter: '"'
+            },
+            datatables_options: {
+                paging: false
+            },
+            // custom_formatting: [
+            //     [4, formatNumber]
+            // ]
+        });
+    </script>
+</body>
+
+</html>
