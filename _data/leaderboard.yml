@@ -1,0 +1,46 @@
+records:
+- comment: null
+  devscore: 61.03%
+  devscore_std: 1.14%
+  link: https://platform.openai.com/docs/models/gpt-4-and-gpt-4-turbo
+  rank: 1
+  score: 59.13%
+  score_std: 0.58%
+  size: null
+  testscore: 57.23%
+  testscore_std: 0.19%
+  title: GPT-4 (0613)
+- comment: null
+  devscore: 27.96%
+  devscore_std: 0.81%
+  link: https://github.com/facebookresearch/codellama
+  rank: 23
+  score: 29.51%
+  score_std: 0.97%
+  size: 7
+  testscore: 31.06%
+  testscore_std: 1.18%
+  title: CodeLlama-7B-Instruct
+- comment: null
+  devscore: 27.51%
+  devscore_std: 1.09%
+  link: https://github.com/facebookresearch/codellama
+  rank: 24
+  score: 28.88%
+  score_std: 0.45%
+  size: 7
+  testscore: 30.24%
+  testscore_std: 1.97%
+  title: CodeLlama-7B-Python
+- comment: null
+  devscore: 26.53%
+  devscore_std: 1.12%
+  link: https://huggingface.co/WizardLM/WizardCoder-1B-V1.0
+  rank: 25
+  score: 27.11%
+  score_std: 0.85%
+  size: 1
+  testscore: 27.70%
+  testscore_std: 0.72%
+  title: WizardCoder-1B-V1.0
+settings: main

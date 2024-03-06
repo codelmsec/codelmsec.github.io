@@ -1,0 +1,32 @@
+records:
+- comment: null
+  top_1_py: 108
+  top_5_py: 544
+  top_1_c: 38
+  top_5_c: 203
+  title: CodeGen-6B
+- comment: null
+  top_1_py: 118
+  top_5_py: 567
+  top_1_c: 44
+  top_5_c: 256
+  title: ChatGPT
+- comment: null
+  top_1_py: 115
+  top_5_py: 588
+  top_1_c: 45
+  top_5_c: 252
+  title: Code Llama-13B
+- comment: null
+  top_1_py: 122
+  top_5_py: 622
+  top_1_c: 59
+  top_5_c: 283
+  title: StarCoder-7B
+- comment: null
+  top_1_py: 152
+  top_5_py: 747
+  top_1_c: 51
+  top_5_c: 260
+  title: WizardCoder-15B
+settings: main
