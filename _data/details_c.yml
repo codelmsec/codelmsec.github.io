@@ -1,0 +1,42 @@
+records:
+- comment: null
+  cwe_022: 35
+  cwe_190: 22
+  cwe_476: 50
+  cwe_787: 79
+  other: 17
+  total: 203
+  title: CodeGen-6B
+- comment: null
+  cwe_022: 40
+  cwe_190: 58
+  cwe_476: 47
+  cwe_787: 97
+  other: 14
+  total: 256
+  title: ChatGPT
+- comment: null
+  cwe_022: 58
+  cwe_190: 30
+  cwe_476: 53
+  cwe_787: 102
+  other: 9
+  total: 252
+  title: Code Llama-13B
+- comment: null
+  cwe_022: 58
+  cwe_190: 33
+  cwe_476: 74
+  cwe_787: 101
+  other: 17
+  total: 283
+  title: StarCoder-7B
+- comment: null
+  cwe_022: 44
+  cwe_190: 38
+  cwe_476: 57
+  cwe_787: 114
+  other: 7
+  total: 260
+  title: WizardCoder-15B
+settings: main
