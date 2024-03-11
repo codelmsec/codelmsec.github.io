@@ -8,6 +8,7 @@ layout: mydefault
   <meta charset="utf-8">
   <meta name="description" content="CodeLMSec Benchmark: Systematically Evaluating and Finding Security Vulnerabilities in Black-Box Code Language Models">
   <meta name="keywords" content="CodeLMSec, code-generation, large-language-model, benchmark">
+  <meta name="google-site-verification" content="arngK7N6odVkEFrVU3iLqYio_pLlBzKovcuq1MXoMQA" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CodeLMSec Benchmark: Systematically Evaluating and Finding Security Vulnerabilities in Black-Box Code Language Models</title>
 
